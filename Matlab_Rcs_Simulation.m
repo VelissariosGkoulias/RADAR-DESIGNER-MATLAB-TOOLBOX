@@ -52,3 +52,8 @@ plot(azimuth, rcs_pattern);
 title('Loaded Angle-Dependent RCS'); xlabel('Azimuth Angle (°)'); ylabel('RCS (dBsm)');
 
 disp('Simulation completed with CSV data!');
+% Note: This is a dummy simulation. Replace the CSV file and RCS values with actual data.
+% Ensure to have the required MATLAB toolboxes installed for radar simulation.
+% Note: The above code is a simplified example. In a real-world scenario,
+% you would need to handle more complex scenarios, including target dynamics,
+% radar waveforms, and signal processing.

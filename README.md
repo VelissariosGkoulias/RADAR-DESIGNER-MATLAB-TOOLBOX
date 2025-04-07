@@ -25,7 +25,7 @@ This repository contains MATLAB scripts and simulations for Radar Cross Section 
    git clone https://github.com/YOUR_USERNAME/RADAR-DESIGNER-MATLAB-TOOLBOX.git
    ```
 2. Open MATLAB and navigate to the cloned directory.
-3. Run `Matlab_Rcs_Simulation.m` to execute the simulation.
+3. Run `RCS_Simulation.m` to execute the simulation.
 4. View the generated plots and results in the `results/` folder.
 
 ## Example Output

@@ -43,6 +43,10 @@
 % pedestrian can be approximated by an isotropic scatterer with a 1 square
 % meter RCS.
 
+close all;
+clear;
+clc;
+
 c = 3e8;
 fc = 3e8;
 pedestrian = phased.RadarTarget('MeanRCS',1,'PropagationSpeed',c,...
@@ -271,7 +275,7 @@ widebandExtendedTarget = phased.WidebandBackscatterRadarTarget(...
 
 extWidebandSweep = widebandExtendedTarget(x,sweepang);
 
-% No fifure() needed, as we need to plot in the same figure
+% No figure needed, as we need to plot in the same figure
 hold on;
 plot(sweepaz,pow2db(extWidebandSweep));
 hold off;
@@ -352,6 +356,7 @@ p_echo = tgt_echo.^2; % Reflected power
 % for unit power input signal is
 p_n = cyl_echo(1)^2;
 
+figure()
 helperTargetRCSReturnHistogramPlot(p_echo,p_n)
 
 %% RCS of Polarized Targets

@@ -36,3 +36,10 @@ This repository contains MATLAB scripts and simulations for Radar Cross Section 
 - Implement more advanced RCS models
 - Add support for different radar waveforms
 - Enhance visualization with 3D plotting
+
+## Authors
+
+* **Velissarios Gkoulias** - *Initial work* - (https://github.com/VelissariosGkoulias)
+
+## Extra Material
+* https://www.mathworks.com/help/radar/ug/modeling-target-radar-cross-section.html
